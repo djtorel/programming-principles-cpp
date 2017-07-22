@@ -1,0 +1,42 @@
+1. What is the purpose of the "Hello, World!" program?
+   To display the text "Hello, World!" to the screen. Also traditional first program taught for languages.
+   
+2. Name four parts of a function.
+   1. The type
+   2. The name
+   3. The arguments
+   4. The body of code it executes
+   
+3. Name a function that must appear in every C++ program.
+   The main() function must appear in every C++ program.
+
+4. In the "Hello, World!" program what is the purpose of the line return 0;?
+   It is to return 0 to the operating system. In systems like Unix/Linux
+   it lets the OS know it has finished executing successfully.
+
+5. What is the purpose of the compiler?
+   The compiler turns text files containing programming instructions into binary
+   objects that computers can understand.
+
+6. What is the purpose of the #include directive?
+   #include allows us to use external code or libraries in the current file to use.
+
+7. What does a .h suffice at the end of a file name signify in C++?
+   The .h file extension signifies a C++ header, or library file meant to be used by other
+   files in programs.
+
+8. What does a linker do for your program?
+   It links the object files created by our file(s) when compiled. When things are #included
+   they produce object files that need to be linked in a binary file for our program to run.
+
+9. What is the difference between a source file and an object file?
+   A source file is plain text instructions for a compiler using a language standard.
+   An object file is created by a compiler from a source file, and is binary or machine language.
+
+10. What is an IDE and what does it do for you?
+    IDEs are "Integrated Development Environments" and generally are used to make programming projects easier to manage,
+    by including tools and features that make it easier. Like debuggers, syntax highlighting, and compilers to name a few.
+
+11. If you understand everything in the textbook, why is it necessary to practice?
+    Programming just like any skill, takes practice to get better. Understanding syntax is different than knowing how to use
+    it to construct programs.
