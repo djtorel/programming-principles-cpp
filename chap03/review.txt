@@ -1,0 +1,124 @@
+1) What is meant by the term prompt?
+
+  A: Generally, having the program ask a user for something.
+
+2) Which operator do you use to read into a variable?
+
+  A: In context of using input steam 'cin' you would use the '>>' operator to read
+    into a variable.
+
+3) If you want the user to input an integer value for a variable named number,
+  what are the two lines of code you could write to ask the user to do it and
+  input the value into your program?
+
+  A:  int number{};
+      cin >> number;
+
+4) What is \n called and what purpose does it server?
+
+  A: It is called the new line character, and its purpose is to move a text output
+    to the next line before continuing.
+
+5) What terminates input into a string?
+
+  A: When using cin, any white space terminates input, including new line.
+
+6) What terminates input into an integer?
+
+  A: When using cin, any white space terminates input, including new line.
+
+7) How would you write:
+  cout << "Hello, ";
+  cout << first_name;
+  cout << "\n";
+
+  A: cout << "Hello, " << first_name << '\n';
+
+8) What is an object?
+
+  A: An initialized region of memory of a known type which holds a value of that
+    type. A region of memory.
+
+9) What is a literal?
+
+  A: A notation that directly specifies a value.
+
+10) What kinds of literals are there?
+
+  A: Integer literals, Float/double literals, character literals, boolean
+    literals.
+
+11) What is a variable?
+
+  A: A variable is a named object that stores a value. For example, an int
+    variable refers to an int object in memory that can be used and possibly
+    modified by the program.
+
+12) What are typical sizes for a char, an int, and a double?
+
+  A: A char is typically 1 byte (8 bits). An int is typically 4 bytes (16 bits).
+    A double is typically 8 bytes (64 bits).
+
+13) What measures do we use for the size of small entities in memory, such as
+  ints and strings?
+
+  A: Bytes.
+
+14) What is the difference between = and ==?
+
+  A: The = operator assigns the result of the values on the right of it to what
+    is on the left of it. The == operator compares the values on the left and
+    right of it, and returns 1 (true) if equal, and 0 (false) if not.
+
+15) What is a definition?
+
+  A: A declaration of an entity that supplies all information necessary to
+    complete a program using the entity. A declaration that allocates memory.
+
+16) What is an initialization and how does it differ from an assignment?
+
+  A: An initialization sets an initial value to a variable, and can only be done
+    once. An assignment assigns a new value to a variable.
+
+17) What is string concatenation, and how do you make it work in C++?
+
+  A: String concatenation is when you combine two or more string literals into
+    one string. You can do this using the + operator in C++.
+
+18) Which of the following are legal names in C++? If a name is not legal, why
+  not?
+
+  A: This_little_pig - Legal.
+    This_1_is fine - Not legal because of space.
+    2_For_1_special - Not legal, starts with number.
+    latest thing - Not legal, because of space.
+    the_$12_method - Not legal, contains a non-alphanumeric or _ character.
+    _this_is_ok - Legal, but not advised.
+    MiniMineMine - Legal
+    number - Legal
+    correct? - Illegal, ? is not an alpha-numeric or _ character.
+
+19) Give five examples of legal names that you shouldn't use because they are
+  likely to cause confusion.
+
+  A: s, tacniacv, n1m, p1, xjvxcvn
+
+20) Whar are some good rules for choosing names?
+
+  A: Choose a name that is concise, but describes what it is.
+
+21) What is type safety, and why is it important?
+
+  A: Type safety means the compiler can help check that types are compatible.
+    It is important because it can cause bugs if types are incompatible.
+
+22) Why can conversion from double to int be a bad thing?
+
+  A: Because an int cannot store a decimal value, and can cause a bug if it is
+    needed.
+
+23) Define a rule to help decide if a conversion from one type to another is
+  safe or unsafe.
+
+  A: It is safe if they can be converted from one to the other without losing
+    information, then it is type safe.
