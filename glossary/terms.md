@@ -76,12 +76,12 @@
 > A file containing declarations used to share interfaces between parts of a program.
 ---
 
-## **IDE**
-> Interactive Development Environment, or Integrated Development Environment. Such as Visual Studio.
----
-
 ## **#include**
 > Insructs the computer to make available ("to include") facilities from the given header or library
+---
+
+## **IDE**
+> Interactive Development Environment, or Integrated Development Environment. Such as Visual Studio.
 ---
 
 ## **initialization**
